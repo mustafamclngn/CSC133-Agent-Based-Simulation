@@ -1,9 +1,13 @@
-# Traffic Signal Optimization at Macapagal Avenue – Tubod Intersection
+<div align="center">
+
+# Agent-Based Simulation of Traffic Flow at Tubod Intersection, Iligan City: A Comparative Analysis of Dynamic Signal Timing Optimization 
 
 [![SUMO](https://img.shields.io/badge/SUMO-1.26.0-blue.svg)](https://eclipse.dev/sumo/)
 [![NetEdit](https://img.shields.io/badge/Netedit-1.26.0-red.svg)](https://eclipse.dev/netedit/)
 [![Python](https://img.shields.io/badge/Python-3.14%2B-green.svg)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-yellow.svg)](https://pandas.pydata.org/)
+
+</div>
 
 ## Background
 This repository contains the files for the traffic simulation models and data analysis scripts for evaluating signal timing performance at the **Macapagal Avenue – Tubod Intersection** in Iligan City, Philippines. 
