@@ -1,0 +1,26 @@
+<routes>
+    <!-- Define the default vehicle type -->
+    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="70"/>
+
+    <!-- ========================================== -->
+    <!-- MAIN CORRIDOR (30,985 AADT)                -->
+    <!-- 9% K-Factor = 2,789 vehicles/hour          -->
+    <!-- ========================================== -->
+
+    <!-- NORTHBOUND (80% Directional Split: Going towards schools/workplaces) -->
+    <flow id="AM_Northbound_straight" type="car" from="Lup" to="northbound_lanes" begin="0" end="3600" number="1785"/> 
+    <flow id="AM_Northbound_turn" type="car" from="Lup" to="Rdown" begin="0" end="3600" number="446"/>        
+    
+    <!-- SOUTHBOUND (20% Directional Split: Minor flow) -->
+    <flow id="AM_Southbound_straight" type="car" from="southbound_lanes" to="Ldown" begin="0" end="3600" number="446"/> 
+    <flow id="AM_Southbound_turn" type="car" from="southbound_lanes" to="Rdown" begin="0" end="3600" number="112"/>        
+
+    <!-- ========================================== -->
+    <!-- SECONDARY CORRIDOR (18,044 AADT)           -->
+    <!-- 9% K-Factor = 1,624 vehicles/hour          -->
+    <!-- ========================================== -->
+
+    <!-- RUP (Adjusted: 80% routing NORTH, 20% routing to Ldown) -->
+    <flow id="AM_Rup_major" type="car" from="Rup" to="northbound_lanes" begin="0" end="3600" number="1039"/>             
+    <flow id="AM_Rup_minor" type="car" from="Rup" to="Ldown" begin="0" end="3600" number="260"/>    
+</routes>

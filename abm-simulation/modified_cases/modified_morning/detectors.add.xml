@@ -1,0 +1,13 @@
+<additional>
+    <!-- Measure queue on Lup (approaching the intersection) -->
+    <laneAreaDetector id="queue_Lup_0" lane="Lup_0" pos="100" length="200" freq="60" file="outputs_morning/queues.xml"/>
+    <laneAreaDetector id="queue_Lup_1" lane="Lup_1" pos="100" length="200" freq="60" file="outputs_morning/queues.xml"/>
+
+    <!-- Measure queue on Rup -->
+    <laneAreaDetector id="queue_Rup_0" lane="Rup_0" pos="400" length="200" freq="60" file="outputs_morning/queues.xml"/>
+    <laneAreaDetector id="queue_Rup_1" lane="Rup_1" pos="400" length="200" freq="60" file="outputs_morning/queues.xml"/>
+
+    <!-- Measure queue on Southbound lanes -->
+    <laneAreaDetector id="queue_Sbound_0" lane="southbound_lanes_0" pos="60" length="60" freq="60" file="outputs_morning/queues.xml"/>
+    <laneAreaDetector id="queue_Sbound_1" lane="southbound_lanes_1" pos="60" length="60" freq="60" file="outputs_morning/queues.xml"/>
+</additional>

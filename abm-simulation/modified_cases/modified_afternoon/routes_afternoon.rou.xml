@@ -1,0 +1,4 @@
+<routes>
+    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="70"/>
+
+    <flow id="PM_Lup_straight" type="car" from="Lup" to="northbound_lanes" begin="0" end="3600" number="632"/>  <flow id="PM_Lup_turn" type="car" from="Lup" to="Rdown" begin="0" end="3600" number="158"/>                 <flow id="PM_Sbound_straight" type="car" from="southbound_lanes" to="Ldown" begin="0" end="3600" number="1475"/> <flow id="PM_Sbound_turn" type="car" from="southbound_lanes" to="Rdown" begin="0" end="3600" number="369"/>      <flow id="PM_Rup_major" type="car" from="Rup" to="Ldown" begin="0" end="3600" number="368"/>              <flow id="PM_Rup_minor" type="car" from="Rup" to="northbound_lanes" begin="0" end="3600" number="92"/>    </routes>

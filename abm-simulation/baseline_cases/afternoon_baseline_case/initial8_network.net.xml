@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-05-25T00:53:02.504918+08:00 by Eclipse SUMO netedit 1.26.0
+<neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\mmmma\TrafficProject\initial8_network.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\mmmma\TrafficProject\initial8_network.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.avoid-overlap value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="0"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.50"/>
+        <rectangular-lane-cut value="0"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="0"/>
+    </pedestrian>
+
+</neteditConfiguration>
+-->
+
+<net version="1.20" junctionCornerDetail="5" limitTurnSpeed="5.50" avoidOverlap="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="-636317.21,-907313.66" convBoundary="356.49,36.05,1109.25,1582.17" origBoundary="124.233396,8.183809,124.258547,8.227981" projParameter="+proj=utm +zone=51 +ellps=WGS84 +datum=WGS84 +units=m +no_defs"/>
+
+    <type id="highway.secondary" priority="11" numLanes="1" speed="27.78" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" oneway="0"/>
+    <type id="highway.trunk" priority="13" numLanes="2" speed="27.78" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" oneway="0"/>
+
+    <edge id=":J1_0" function="internal">
+        <lane id=":J1_0_0" index="0" disallow="bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="15.28" length="8.77" shape="461.41,1549.70 461.59,1552.20 462.48,1553.86 463.35,1555.53 463.49,1558.02"/>
+    </edge>
+    <edge id=":intersection_cluster_0" function="internal">
+        <lane id=":intersection_cluster_0_0" index="0" disallow="bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="13.89" length="20.75" shape="485.56,1408.67 483.77,1411.05 482.27,1415.12 481.05,1420.90 480.11,1428.37"/>
+        <lane id=":intersection_cluster_0_1" index="1" disallow="bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="13.89" length="24.04" shape="484.23,1405.64 481.68,1408.70 479.61,1413.46 478.03,1419.91 476.93,1428.07"/>
+    </edge>
+    <edge id=":intersection_cluster_2" function="internal">
+        <lane id=":intersection_cluster_2_0" index="0" disallow="bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="9.07" length="20.69" shape="484.23,1405.64 479.28,1408.49 474.78,1408.83 470.74,1406.67 467.16,1402.00"/>
+    </edge>
+    <edge id=":intersection_cluster_3" function="internal">
+        <lane id=":intersection_cluster_3_0" index="0" disallow="bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="6.41" length="11.48" shape="472.83,1399.03 474.78,1401.74 476.90,1402.77 479.19,1402.11 481.66,1399.78"/>
+    </edge>
+    <edge id=":intersection_cluster_4" function="internal">
+        <lane id=":intersection_cluster_4_0" index="0" disallow="bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="16.67" length="29.74" shape="472.83,1399.03 476.06,1405.95 478.57,1413.29 480.03,1420.83 480.11,1428.37"/>
+        <lane id=":intersection_cluster_4_1" index="1" disallow="bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="16.67" length="29.74" shape="470.00,1400.51 473.29,1407.09 475.67,1413.82 476.94,1420.79 476.93,1428.07"/>
+    </edge>
+    <edge id=":intersection_cluster_6" function="internal">
+        <lane id=":intersection_cluster_6_0" index="0" disallow="bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="16.67" length="24.34" shape="466.85,1427.11 467.75,1420.46 467.97,1414.85 467.00,1409.45 464.33,1403.48"/>
+        <lane id=":intersection_cluster_6_1" index="1" disallow="bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="16.67" length="25.74" shape="466.85,1427.11 468.19,1420.23 469.39,1414.10 469.39,1408.20 467.16,1402.00"/>
+    </edge>
+    <edge id=":intersection_cluster_8" function="internal">
+        <lane id=":intersection_cluster_8_0" index="0" disallow="bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="13.89" length="24.61" shape="470.04,1427.41 471.58,1420.01 474.04,1412.80 477.40,1405.99 478.44,1404.47"/>
+        <lane id=":intersection_cluster_8_1" index="1" disallow="bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="13.89" length="27.97" shape="470.04,1427.41 471.80,1420.53 474.76,1414.46 478.63,1408.78 483.11,1403.08"/>
+    </edge>
+    <edge id=":intersection_cluster_10" function="internal">
+        <lane id=":intersection_cluster_10_0" index="0" disallow="bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="13.89" length="5.69" shape="478.44,1404.47 481.66,1399.78"/>
+    </edge>
+
+    <edge id="E1" from="J0" to="J3" priority="-1">
+        <lane id="E1_0" index="0" speed="13.89" length="26.25" shape="454.25,1553.76 449.57,1579.59"/>
+    </edge>
+    <edge id="E2" from="J1" to="J4" priority="-1">
+        <lane id="E2_0" index="0" speed="13.89" length="24.65" shape="463.49,1558.02 459.87,1582.40"/>
+    </edge>
+    <edge id="Ldown" from="intersection_cluster" to="3090041110" priority="13" type="highway.trunk" shape="473.04,1409.76 468.56,1401.22 467.32,1399.03 465.21,1395.30 460.65,1389.02 455.00,1382.27 448.07,1375.18 438.05,1366.05 401.44,1331.22 392.19,1321.45 377.17,1305.57 356.49,1283.71">
+        <lane id="Ldown_0" index="0" disallow="bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="16.67" length="161.93" shape="464.33,1403.48 463.14,1401.39 461.17,1397.90 456.86,1391.97 451.44,1385.49 444.73,1378.63 434.78,1369.56 398.04,1334.61 388.70,1324.75 373.68,1308.87 353.00,1287.01"/>
+        <lane id="Ldown_1" index="1" disallow="bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="16.67" length="161.93" shape="467.16,1402.00 465.93,1399.82 463.86,1396.17 459.39,1390.00 453.81,1383.34 446.96,1376.33 436.96,1367.22 400.31,1332.35 391.03,1322.55 376.01,1306.67 355.33,1284.81"/>
+        <param key="ref" value="9"/>
+    </edge>
+    <edge id="Lup" from="3090041110" to="intersection_cluster" priority="13" type="highway.trunk" shape="356.49,1283.71 377.17,1305.57 392.19,1321.45 401.44,1331.22 438.05,1366.05 448.07,1375.18 455.00,1382.27 460.65,1389.02 465.21,1395.30 467.17,1398.77 468.56,1401.22 473.04,1409.76">
+        <lane id="Lup_0" index="0" disallow="bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="16.67" length="163.69" shape="359.98,1280.41 380.66,1302.27 395.68,1318.15 404.84,1327.83 441.32,1362.54 451.41,1371.73 458.56,1379.05 464.44,1386.07 469.25,1392.70 471.35,1396.41 472.77,1398.92 472.83,1399.03"/>
+        <lane id="Lup_1" index="1" disallow="bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="16.67" length="163.69" shape="357.65,1282.61 378.33,1304.47 393.35,1320.35 402.57,1330.09 439.14,1364.88 449.18,1374.03 456.19,1381.20 461.91,1388.04 466.56,1394.43 468.56,1397.98 470.00,1400.51"/>
+        <param key="ref" value="9"/>
+    </edge>
+    <edge id="Rdown" from="intersection_cluster" to="1030441990" priority="11" type="highway.secondary" shape="473.04,1409.76 480.44,1406.60 483.75,1404.84 485.30,1402.91 491.14,1397.33 496.38,1390.42 510.06,1370.81 524.37,1349.45 532.69,1337.72 540.55,1327.48 547.31,1319.52 557.75,1308.44 568.20,1297.62 633.91,1237.49 658.21,1216.15 680.58,1194.93 691.41,1182.63 699.57,1170.17 710.72,1146.29 716.62,1127.10 720.29,1111.39 727.74,1072.14 730.08,1059.79 742.44,997.36 744.99,987.84 757.36,941.77 771.16,888.78 776.51,862.06 783.67,813.24 788.66,788.86 791.35,776.08 797.89,754.44 806.27,734.15 810.04,725.42 815.05,713.87 818.00,706.54 837.73,657.43 851.31,627.17 868.35,589.17 893.05,535.17 898.29,523.72 970.61,365.58 1031.27,215.25 1072.80,117.18 1109.25,36.05 741.82,999.47">
+        <lane id="Rdown_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="11.11" length="493.55" shape="481.66,1399.78 481.76,1399.66 487.55,1394.12 492.50,1387.60 506.10,1368.10 520.42,1346.73 528.83,1334.87 536.81,1324.46 543.73,1316.32 554.28,1305.13 564.85,1294.18 630.71,1233.92 654.97,1212.60 677.12,1191.60 687.58,1179.71 695.37,1167.83 706.23,1144.56 711.98,1125.85 715.59,1110.40 723.02,1071.25 725.37,1058.88 737.11,998.55"/>
+        <lane id="Rdown_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="11.11" length="493.55" shape="483.11,1403.08 484.12,1401.83 489.94,1396.26 495.09,1389.48 508.74,1369.91 523.05,1348.54 531.40,1336.77 539.30,1326.47 546.12,1318.45 556.59,1307.34 567.08,1296.47 632.84,1236.30 657.13,1214.97 679.43,1193.82 690.13,1181.66 698.17,1169.39 709.22,1145.71 715.07,1126.68 718.72,1111.06 726.17,1071.84 728.51,1059.49 740.25,999.16"/>
+    </edge>
+    <edge id="Rup" from="1030441990" to="intersection_cluster" priority="11" type="highway.secondary" shape="741.82,999.47 1109.25,36.05 1072.80,117.18 1031.27,215.25 970.61,365.58 898.29,523.72 893.05,535.17 868.35,589.17 851.31,627.17 837.73,657.43 818.00,706.54 815.05,713.87 810.04,725.42 806.27,734.15 797.89,754.44 791.35,776.08 788.66,788.86 783.67,813.24 776.51,862.06 771.16,888.78 757.36,941.77 744.99,987.84 742.44,997.36 730.08,1059.79 727.74,1072.14 720.29,1111.39 716.62,1127.10 710.72,1146.29 699.57,1170.17 691.41,1182.63 680.58,1194.93 658.21,1216.15 633.91,1237.49 568.20,1297.62 557.75,1308.44 547.31,1319.52 540.55,1327.48 532.69,1337.72 524.37,1349.45 510.06,1370.81 496.38,1390.42 491.14,1397.33 486.21,1402.04 480.44,1406.60 473.04,1409.76">
+        <lane id="Rup_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="11.11" length="499.65" shape="746.53,1000.39 734.79,1060.70 732.46,1073.03 724.99,1112.38 721.26,1128.35 715.21,1148.02 703.77,1172.51 695.24,1185.55 684.04,1198.26 661.45,1219.70 637.11,1241.06 571.55,1301.06 561.22,1311.75 550.89,1322.72 544.29,1330.50 536.55,1340.57 528.32,1352.17 514.02,1373.52 500.26,1393.24 494.73,1400.54 489.36,1405.67 485.56,1408.67"/>
+        <lane id="Rup_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="11.11" length="499.65" shape="743.39,999.78 731.65,1060.09 729.31,1072.44 721.86,1111.72 718.17,1127.52 712.22,1146.87 700.97,1170.95 692.69,1183.60 681.73,1196.04 659.29,1217.33 634.98,1238.68 569.32,1298.77 558.91,1309.54 548.50,1320.59 541.80,1328.49 533.98,1338.67 525.69,1350.36 511.38,1371.71 497.67,1391.36 492.34,1398.40 487.26,1403.25 484.23,1405.64"/>
+    </edge>
+    <edge id="northbound_lanes" from="intersection_cluster" to="J1" priority="13" type="highway.trunk" spreadType="center" shape="478.52,1428.22 477.70,1436.80 468.45,1507.21 462.49,1553.84">
+        <lane id="northbound_lanes_0" index="0" disallow="bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="16.67" length="122.67" shape="480.11,1428.37 479.29,1436.98 470.04,1507.42 464.58,1550.10"/>
+        <lane id="northbound_lanes_1" index="1" disallow="bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="16.67" length="122.67" shape="476.93,1428.07 476.11,1436.62 466.86,1507.00 461.41,1549.70"/>
+        <param key="ref" value="9"/>
+    </edge>
+    <edge id="southbound_lanes" from="J0" to="intersection_cluster" priority="13" type="highway.trunk" spreadType="center" shape="452.91,1552.20 454.10,1538.72 458.48,1505.82 467.27,1435.48 468.70,1425.50 469.75,1419.76 471.36,1414.36 473.04,1409.76">
+        <lane id="southbound_lanes_0" index="0" disallow="bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="16.67" length="124.70" shape="451.42,1550.84 452.51,1538.54 456.89,1505.62 465.68,1435.27 466.85,1427.11"/>
+        <lane id="southbound_lanes_1" index="1" disallow="bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="16.67" length="124.70" shape="454.61,1551.13 455.69,1538.90 460.07,1506.02 468.86,1435.69 470.04,1427.41"/>
+        <param key="ref" value="9"/>
+    </edge>
+
+    <tlLogic id="cluster_1321728196_2990360961" type="static" programID="0" offset="0">
+        <phase duration="35" state="GGGGrrGgrr"/>
+        <phase duration="4"  state="GGyGyyGGrr"/>
+        <phase duration="45" state="GgrGGGGGrr"/>
+        <phase duration="4"  state="GGrGyyGGyy"/>
+        <phase duration="45" state="GGrGrrGGgG"/>
+        <phase duration="4"  state="GGyGrrGGyy"/>
+    </tlLogic>
+
+    <junction id="1030441990" type="dead_end" x="741.82" y="999.47" incLanes="Rdown_0 Rdown_1" intLanes="" shape="741.82,999.47 735.54,998.25 741.82,999.47"/>
+    <junction id="3090041110" type="dead_end" x="356.49" y="1283.71" incLanes="Ldown_0 Ldown_1" intLanes="" shape="356.49,1283.71 351.84,1288.11 356.49,1283.71"/>
+    <junction id="J0" type="dead_end" x="452.91" y="1552.20" incLanes="" intLanes="" shape="456.20,1551.27 449.83,1550.70 452.68,1553.47 455.83,1554.04 456.01,1553.02 456.06,1552.66 456.11,1552.30 456.15,1551.86"/>
+    <junction id="J1" type="priority" x="462.49" y="1553.84" incLanes="northbound_lanes_0 northbound_lanes_1" intLanes=":J1_0_0" shape="466.17,1550.30 459.82,1549.49 460.26,1552.59 460.89,1553.64 461.52,1554.70 461.93,1556.00 461.90,1557.79 465.07,1558.26">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="J3" type="dead_end" x="448.00" y="1579.30" incLanes="E1_0" intLanes="" shape="451.15,1579.87 448.00,1579.30"/>
+    <junction id="J4" type="dead_end" x="458.29" y="1582.17" incLanes="E2_0" intLanes="" shape="461.46,1582.64 458.29,1582.17"/>
+    <junction id="intersection_cluster" type="traffic_light" x="475.78" y="1418.99" incLanes="Rup_0 Rup_1 Lup_0 Lup_1 southbound_lanes_0 southbound_lanes_1" intLanes=":intersection_cluster_0_0 :intersection_cluster_0_1 :intersection_cluster_2_0 :intersection_cluster_3_0 :intersection_cluster_4_0 :intersection_cluster_4_1 :intersection_cluster_6_0 :intersection_cluster_6_1 :intersection_cluster_10_0 :intersection_cluster_8_1" shape="486.22,1410.19 480.97,1398.20 478.22,1400.12 477.03,1400.37 475.98,1400.15 475.05,1399.45 474.25,1398.28 462.91,1404.23 465.16,1408.58 466.39,1412.02 466.81,1415.08 466.62,1418.24 466.04,1422.03 465.26,1426.95 481.71,1428.52 482.25,1423.58 482.89,1419.39 483.60,1415.95 484.39,1413.28 485.26,1411.35">
+        <request index="0" response="0000110000" foes="0000110000" cont="0"/>
+        <request index="1" response="0000110000" foes="0000110000" cont="0"/>
+        <request index="2" response="1111110000" foes="1111110000" cont="0"/>
+        <request index="3" response="0000000000" foes="1100000000" cont="0"/>
+        <request index="4" response="0100000000" foes="1100000111" cont="0"/>
+        <request index="5" response="0100000000" foes="1100000111" cont="0"/>
+        <request index="6" response="0000000000" foes="0000000100" cont="0"/>
+        <request index="7" response="0000000000" foes="0000000100" cont="0"/>
+        <request index="8" response="0000000000" foes="0000111100" cont="1"/>
+        <request index="9" response="0000000000" foes="0000111100" cont="0"/>
+    </junction>
+
+    <junction id=":intersection_cluster_10_0" type="internal" x="478.44" y="1404.47" incLanes=":intersection_cluster_8_0 Lup_0" intLanes=":intersection_cluster_2_0 :intersection_cluster_3_0 :intersection_cluster_4_0 :intersection_cluster_4_1"/>
+
+    <connection from="Lup" to="Rdown" fromLane="0" toLane="0" via=":intersection_cluster_3_0" tl="cluster_1321728196_2990360961" linkIndex="3" dir="r" state="O"/>
+    <connection from="Lup" to="northbound_lanes" fromLane="0" toLane="0" via=":intersection_cluster_4_0" tl="cluster_1321728196_2990360961" linkIndex="4" dir="s" state="O"/>
+    <connection from="Lup" to="northbound_lanes" fromLane="1" toLane="1" via=":intersection_cluster_4_1" tl="cluster_1321728196_2990360961" linkIndex="5" dir="s" state="O"/>
+    <connection from="Rup" to="northbound_lanes" fromLane="0" toLane="0" via=":intersection_cluster_0_0" tl="cluster_1321728196_2990360961" linkIndex="0" dir="r" state="o"/>
+    <connection from="Rup" to="northbound_lanes" fromLane="1" toLane="1" via=":intersection_cluster_0_1" tl="cluster_1321728196_2990360961" linkIndex="1" dir="r" state="o"/>
+    <connection from="Rup" to="Ldown" fromLane="1" toLane="1" via=":intersection_cluster_2_0" tl="cluster_1321728196_2990360961" linkIndex="2" dir="l" state="o"/>
+    <connection from="northbound_lanes" to="E2" fromLane="1" toLane="0" via=":J1_0_0" dir="s" state="M"/>
+    <connection from="southbound_lanes" to="Ldown" fromLane="0" toLane="0" pass="1" via=":intersection_cluster_6_0" tl="cluster_1321728196_2990360961" linkIndex="6" dir="r" state="O"/>
+    <connection from="southbound_lanes" to="Ldown" fromLane="0" toLane="1" pass="1" via=":intersection_cluster_6_1" tl="cluster_1321728196_2990360961" linkIndex="7" dir="r" state="O"/>
+    <connection from="southbound_lanes" to="Rdown" fromLane="1" toLane="0" pass="1" via=":intersection_cluster_8_0" tl="cluster_1321728196_2990360961" linkIndex="8" dir="l" state="O"/>
+    <connection from="southbound_lanes" to="Rdown" fromLane="1" toLane="1" pass="1" via=":intersection_cluster_8_1" tl="cluster_1321728196_2990360961" linkIndex="9" dir="l" state="O"/>
+
+    <connection from=":J1_0" to="E2" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":intersection_cluster_0" to="northbound_lanes" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":intersection_cluster_0" to="northbound_lanes" fromLane="1" toLane="1" dir="r" state="M"/>
+    <connection from=":intersection_cluster_2" to="Ldown" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":intersection_cluster_3" to="Rdown" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":intersection_cluster_4" to="northbound_lanes" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":intersection_cluster_4" to="northbound_lanes" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":intersection_cluster_6" to="Ldown" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":intersection_cluster_6" to="Ldown" fromLane="1" toLane="1" dir="r" state="M"/>
+    <connection from=":intersection_cluster_8" to="Rdown" fromLane="0" toLane="0" via=":intersection_cluster_10_0" dir="l" state="m"/>
+    <connection from=":intersection_cluster_10" to="Rdown" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":intersection_cluster_8" to="Rdown" fromLane="1" toLane="1" dir="l" state="M"/>
+
+</net>

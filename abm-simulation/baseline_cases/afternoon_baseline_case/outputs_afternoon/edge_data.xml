@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-05-25T01:51:34.283182+08:00 by Eclipse SUMO GUI 1.26.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\mmmma\TrafficProject\baseline_cases\afternoon_baseline_case\initial8_network.net.xml"/>
+        <route-files value="C:\Users\mmmma\TrafficProject\baseline_cases\afternoon_baseline_case\routes_afternoon.rou.xml"/>
+        <additional-files value="C:\Users\mmmma\TrafficProject\baseline_cases\afternoon_baseline_case\detectors.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="C:\Users\mmmma\TrafficProject\baseline_cases\afternoon_baseline_case\outputs_afternoon/tripinfo.xml"/>
+        <edgedata-output value="C:\Users\mmmma\TrafficProject\baseline_cases\afternoon_baseline_case\outputs_afternoon/edge_data.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <gui_only>
+        <start value="true"/>
+    </gui_only>
+
+</sumoConfiguration>
+-->
+
+<meandata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/meandata_file.xsd">
+    <interval begin="0.00" end="3600.00" id="DEFAULT_EDGEDATA">
+        <edge id="Ldown" sampledSeconds="15606.25" traveltime="10.86" overlapTraveltime="11.18" density="26.15" overlapDensity="26.77" laneDensity="13.07" occupancy="6.50" waitingTime="0.00" timeLoss="1533.62" speed="14.93" speedRelative="0.90" departed="0" arrived="1399" entered="1407" left="0" laneChangedFrom="0" laneChangedTo="0" flow="1402.89"/>
+        <edge id="Lup" sampledSeconds="41544.71" traveltime="54.03" overlapTraveltime="54.66" density="69.66" overlapDensity="70.50" laneDensity="34.83" occupancy="17.52" waitingTime="24995.00" timeLoss="33694.08" speed="3.09" speedRelative="0.19" departed="790" arrived="0" entered="0" left="768" laneChangedFrom="385" laneChangedTo="385" flow="759.82"/>
+        <edge id="Rdown" sampledSeconds="19958.32" traveltime="47.99" overlapTraveltime="48.47" density="11.15" overlapDensity="11.23" laneDensity="5.57" occupancy="2.78" waitingTime="0.00" timeLoss="1419.08" speed="10.28" speedRelative="0.93" departed="0" arrived="412" entered="413" left="0" laneChangedFrom="204" laneChangedTo="204" flow="412.79"/>
+        <edge id="Rup" sampledSeconds="41543.08" traveltime="91.05" overlapTraveltime="91.75" density="22.92" overlapDensity="23.10" laneDensity="11.46" occupancy="5.75" waitingTime="15942.00" timeLoss="20791.01" speed="5.50" speedRelative="0.50" departed="460" arrived="0" entered="0" left="454" laneChangedFrom="390" laneChangedTo="390" flow="452.75"/>
+        <edge id="northbound_lanes" sampledSeconds="5976.61" traveltime="8.22" overlapTraveltime="8.53" density="13.11" overlapDensity="13.53" laneDensity="6.56" occupancy="3.26" waitingTime="0.00" timeLoss="562.97" speed="14.96" speedRelative="0.90" departed="0" arrived="705" entered="705" left="0" laneChangedFrom="7" laneChangedTo="7" flow="705.00"/>
+        <edge id="southbound_lanes" sampledSeconds="24956.23" traveltime="19.48" overlapTraveltime="19.88" density="54.39" overlapDensity="55.59" laneDensity="27.19" occupancy="13.75" waitingTime="8263.00" timeLoss="15092.64" speed="6.52" speedRelative="0.39" departed="1309" arrived="0" entered="0" left="1303" laneChangedFrom="262" laneChangedTo="262" flow="1253.11"/>
+    </interval>
+</meandata>

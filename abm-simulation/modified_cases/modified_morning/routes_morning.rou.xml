@@ -1,0 +1,9 @@
+<routes>
+    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="70"/>
+
+    <flow id="SC_Northbound_straight" type="car" from="Lup" to="northbound_lanes" begin="0" end="3600" number="1338"/> <flow id="SC_Northbound_turn" type="car" from="Lup" to="Rdown" begin="0" end="3600" number="335"/>         <flow id="SC_Southbound_straight" type="car" from="southbound_lanes" to="Ldown" begin="0" end="3600" number="446"/> 
+    <flow id="SC_Southbound_turn" type="car" from="southbound_lanes" to="Rdown" begin="0" end="3600" number="112"/>        
+
+    <flow id="SC_Rup_major" type="car" from="Rup" to="northbound_lanes" begin="0" end="3600" number="779"/>             
+    <flow id="SC_Rup_minor" type="car" from="Rup" to="Ldown" begin="0" end="3600" number="195"/>    
+</routes>
