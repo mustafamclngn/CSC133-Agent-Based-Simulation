@@ -1,7 +1,6 @@
 <div align="center">
 
 # Agent-Based Simulation of Traffic Flow at Tubod Intersection, Iligan City: A Comparative Analysis of Dynamic Signal Timing Optimization 
-Project files and source codes for the comparative simulation study using Agent-Based Simulation modelling
 
 [![Status](https://img.shields.io/badge/Status-Simulation-success.svg)](#)
 [![XML](https://img.shields.io/badge/XML-Configuration-orange.svg)](#)
@@ -9,6 +8,10 @@ Project files and source codes for the comparative simulation study using Agent-
 [![NetEdit](https://img.shields.io/badge/Netedit-1.26.0-red.svg)](https://eclipse.dev/netedit/)
 [![Python](https://img.shields.io/badge/Python-3.14%2B-green.svg)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-yellow.svg)](https://pandas.pydata.org/)
+
+**Project files and source codes for the comparative simulation study using Agent-Based Simulation modelling**
+
+[📄 View Simulation Paper](https://github.com/mustafamclngn/CSC133-Agent-Based-Simulation/releases/tag/Documentation)
 
 </div>
 
